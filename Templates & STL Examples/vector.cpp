@@ -9,12 +9,37 @@ int largestElement(vector<int> arr) {
     return *max_element(arr.begin(),arr.end());
      
 }
+// Rotating the element by k times
 vector<int> kRotate(vector<int> a, int k){
     // your code  goes here
     rotate(a.begin(), a.begin()+a.size()-k, a.end());
     return a;
     
 }
+// sorting
+vector<int> sortingWithComparator(vector<int> a, bool flag){
+    // In main function currently didn't provided anything , if want to run add some codes in main
+    sort(a.begin(),a.end());
+    if (flag== true){
+        return a;
+    }
+    else{
+        reverse(a.begin(),a.end());
+        return a;
+    }
+}
+
+//Comparing when coordinates are given
+// In main function currently didn't provided anything , if want to run add some codes in main
+bool cmp(pair<int,int> a,pair<int,int> b){
+    return a.first == b.first ? a.second<b.second:a.first<b.first;
+}
+vector<pair<int, int>> sortCartesian(vector<pair<int, int>> v)
+{
+    sort(v.begin(),v.end(),cmp);
+    return v;
+}
+
 int main()
 {
     vector<int> v1;
@@ -43,7 +68,6 @@ void display(vector<int> &v)
 {
     for (int i = 0; i < v.size(); i++)
     {
-        /* code */
         cout<<v[i]<<" ";
         
     }
