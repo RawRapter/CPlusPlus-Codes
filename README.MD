@@ -26,7 +26,8 @@ This repository includes all the programs I wrote in C++.
     - Array
     - Recursion
     - Sorting Algorithms
-- Templates and STL Examples
+    - String
+- Examples
 
   
 ## Tech Stack
