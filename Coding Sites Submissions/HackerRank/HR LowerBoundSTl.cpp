@@ -3,6 +3,7 @@
 #include <algorithm>
 using namespace std;
 
+//Speeding up code
 int start_up(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
@@ -10,8 +11,10 @@ int start_up(){
 }
 int static r = start_up();
 #define endl '\n';
+//Speeding up code ends
+
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */ 
+
     int n,ele,y,z;
     vector<int> v;
     cin>>n;

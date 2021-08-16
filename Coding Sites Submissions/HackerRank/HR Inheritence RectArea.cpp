@@ -14,6 +14,7 @@ using namespace std;
          cout<<w<<" "<<h<<endl;
      }
  };
+ //Child class
 class RectangleArea : public Rectangle{
     public:
     void read_input(){

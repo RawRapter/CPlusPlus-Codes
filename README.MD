@@ -24,6 +24,7 @@ This repository includes all the programs I wrote in C++.
 - Coding Sites Submission
 - DSA
     - Array
+    - Pointer & Dynamic Memory
     - Recursion
     - Sorting Algorithms
     - String

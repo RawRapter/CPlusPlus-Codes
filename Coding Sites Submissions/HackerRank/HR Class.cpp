@@ -3,9 +3,11 @@
 using namespace std;
 
 class Student{
+    //declaring variables
     int age,standard;
     string first_name,last_name,str;
     
+    //declaring functions set and get for all variables.
     public:
     void set_age(int a){
         age = a;
@@ -32,6 +34,7 @@ class Student{
         return last_name;
     }
     string to_string(){
+        //to get the inputs in form of stream.
         stringstream str1;
         str1<<age<<","<<first_name<<","<<last_name<<","<<standard;
         return str1.str();
@@ -43,14 +46,17 @@ int main() {
     int age, standard;
     string first_name, last_name;
     
+    //taking inputs for all variables
     cin >> age >> first_name >> last_name >> standard;
     
+    //setting it to the class
     Student st;
     st.set_age(age);
     st.set_standard(standard);
     st.set_first_name(first_name);
     st.set_last_name(last_name);
     
+    //getting them from class
     cout << st.get_age() << "\n";
     cout << st.get_last_name() << ", " << st.get_first_name() << "\n";
     cout << st.get_standard() << "\n";

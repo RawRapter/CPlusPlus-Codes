@@ -49,3 +49,22 @@ int main()
 
  return 0;
 }
+
+
+
+/*IGNORE: SQL Query for prime number
+
+select listagg(Prime_Number,'&') within group(order by Prime_Number)
+from (select L Prime_Number from
+     (select Level L 
+     from Dual
+     connect by Level <= 1000),
+     (select Level M
+     from Dual
+     connect by Level <= 1000)
+     where M <= L
+     group by L
+     having count(case when L/M = trunc(L/M) then 'Y' end) = 2
+     order by L);
+
+*/

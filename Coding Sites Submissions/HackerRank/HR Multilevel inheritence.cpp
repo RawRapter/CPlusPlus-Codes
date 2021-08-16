@@ -2,14 +2,14 @@
 #include <iostream>
 
 using namespace std;
-
+//Parent Class
 class Triangle{
 	public:
 		void triangle(){
 			cout<<"I am a triangle\n";
 		}
 };
-
+// Child of parent
 class Isosceles : public Triangle{
   	public:
   		void isosceles(){
@@ -17,7 +17,7 @@ class Isosceles : public Triangle{
   		}
 };
 
-//Write your code here.
+//Child of child
 class Equilateral : public Isosceles{
     public:
         void equilateral(){
@@ -26,7 +26,7 @@ class Equilateral : public Isosceles{
 };
 
 int main(){
-  
+    //creating object and calling functions 
     Equilateral eqr;
     eqr.equilateral();
     eqr.isosceles();

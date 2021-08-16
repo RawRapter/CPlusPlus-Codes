@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-	// Complete the program
+	// String program to concatenate two string and interchange their first character
     string s1,s2;
     char c1,c2;
     cin>>s1>>s2;
