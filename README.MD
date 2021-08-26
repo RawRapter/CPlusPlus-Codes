@@ -22,12 +22,16 @@ This repository includes all the programs I wrote in C++.
 - Algorithms
 - Basic Patterns
 - Coding Sites Submission
+    - Hacker Rank
+    - Udemy
 - DSA
     - Array
+    - Bit Manipulation
     - Pointer & Dynamic Memory
     - Recursion
     - Sorting Algorithms
     - String
+    - Vector
 - Examples
 
   
@@ -49,6 +53,20 @@ If you have any feedback, please reach out to us at anant.arun92@gmail.com
 
 - Highly Maintianed programs
 - Optimized Versions
+
+## Abbreviation
+- Algorithm - Al
+- Basic Patterns - BP
+- Coding Sites Submissions - CSS
+- Hacker Rank - HR
+- Udemy - Ud
+- Array - Ar
+- Bit Manipulation - BP
+- Pointers & Dynamic Memory - PDM
+- Recursion - Rec
+- Sorting Algorithm - SA
+- String - str
+- Vector - Vec
 
   
 ## FAQ
