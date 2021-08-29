@@ -67,6 +67,7 @@ If you have any feedback, please reach out to us at anant.arun92@gmail.com
 - Sorting Algorithm - SA
 - String - str
 - Vector - Vec
+- recursion - rec
 
   
 ## FAQ
