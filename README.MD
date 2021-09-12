@@ -20,12 +20,26 @@ This repository includes all the programs I wrote in C++.
   
 ## Index <All Folders>
 - Algorithms
+    - Defense Kingdom
+    - GridPath
+    - MakeZeroes
+    - MaxSubMatrixSum
+    - NQueen Problem Print all boarda
+    - NQueen Problem Print Single board
+    - NQueen Problem count no. of ways
+    - Pascal Triangle
+    - Rotate Image
+    - Spiral 2D array print
+    - Stair Case Search
+    - Sub Matrix Sum
+    - Sudoku
 - Basic Patterns
 - Coding Sites Submission
     - Hacker Rank
     - Udemy
 - DSA
     - Array
+    - Backtracking
     - Bit Manipulation
     - Pointer & Dynamic Memory
     - Recursion
