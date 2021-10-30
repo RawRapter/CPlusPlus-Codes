@@ -40,10 +40,15 @@ This repository includes all the programs I wrote in C++.
 - DSA
     - Array
     - Backtracking
+    - Binary tree
     - Bit Manipulation
+    - Hashing
+    - Linked List
+    - OOPs
     - Pointer & Dynamic Memory
     - Recursion
     - Sorting Algorithms
+    - Stack
     - String
     - Vector
 - Examples
