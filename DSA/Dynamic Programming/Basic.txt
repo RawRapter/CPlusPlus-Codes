@@ -1,0 +1,5 @@
+- Two approaches
+- Top Down approach - recursion is used - we start building the big solution right way by
+explaining how you build it from smaller solution.
+- Bottom up approach - iterative method is used - we start with the small solution 
+and then use the small solution to build the large solution

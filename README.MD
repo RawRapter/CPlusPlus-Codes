@@ -43,11 +43,13 @@ This repository includes all the programs I wrote in C++.
     - Binary Search Tree
     - Binary tree
     - Bit Manipulation
+    - Graphs
     - Hashing
     - Heap/Priority Queue
     - Linked List
     - OOPs
     - Pointer & Dynamic Memory
+    - Queue
     - Recursion
     - Sorting Algorithms
     - Stack
@@ -72,7 +74,7 @@ If you have any feedback, please reach out to us at anant.arun92@gmail.com
   
 ## Features
 
-- Highly Maintianed programs
+- Highly Maintained programs
 - Optimized Versions
 
 ## Abbreviation
@@ -89,6 +91,11 @@ If you have any feedback, please reach out to us at anant.arun92@gmail.com
 - String - str
 - Vector - Vec
 - recursion - rec
+- Adjacency - Adj
+- Representation - rpr,rpre
+- BFS - Breadth First Search
+- Complete - cplt
+- Inprogress - inpr
 
   
 ## FAQ
