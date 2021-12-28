@@ -1,7 +1,8 @@
 #include<iostream>
 #include<algorithm>
 using namespace std;
-/*Inuilt Sort O(nlogn)*/
+/*Inbuilt Sort O(nlogn)*/
+
 bool compare(int a, int b){
     return a<b;
 }

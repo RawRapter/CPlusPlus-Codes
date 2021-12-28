@@ -78,6 +78,7 @@ If you have any feedback, please reach out to us at anant.arun92@gmail.com
 - Optimized Versions
 
 ## Abbreviation
+- Data Structures and Algorithms - DSA
 - Algorithm - Al
 - Basic Patterns - BP
 - Coding Sites Submissions - CSS
@@ -96,6 +97,7 @@ If you have any feedback, please reach out to us at anant.arun92@gmail.com
 - BFS - Breadth First Search
 - Complete - cplt
 - Inprogress - inpr
+- Updated - updt
 
   
 ## FAQ

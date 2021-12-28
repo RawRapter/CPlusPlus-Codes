@@ -24,9 +24,10 @@ int ** create_2D_array(int rows, int cols){
 }
 int main()
 {
-    int rows,cols;
+    int rows,cols; // Rows: number of rows ,cols: number of columns
     cin>>rows>>cols;
 
+    //Passing function the pointer of pointer variable i.e. arr
     int **arr = create_2D_array(rows,cols);
 
     for (int i = 0; i < rows; i++)

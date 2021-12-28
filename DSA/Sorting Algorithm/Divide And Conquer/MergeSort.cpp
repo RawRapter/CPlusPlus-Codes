@@ -6,7 +6,8 @@ void merge(vector<int> &arr,int s,int e){
     int i = s;
     int mid = (s+e)/2;
     int j = mid+1;
-    vector<int> temp;
+
+    vector<int> temp; // Making temp vector to insert element in sorted order in given array part
     while(i<=mid and j<=e){
         if(arr[i]<arr[j]){
             temp.push_back(arr[i]);
@@ -19,7 +20,7 @@ void merge(vector<int> &arr,int s,int e){
 
     }
 
-    //Copying remaing elements from first array
+    //Copying remaining elements from first array
     while(i<=mid)
     temp.push_back(arr[i++]);
     //or copying remaining elements from second array
@@ -35,6 +36,7 @@ void merge(vector<int> &arr,int s,int e){
 }
 
 void mergesort(vector<int> &arr,int s, int e){
+    // s: start ,, e: end
     //Base Case
     if(s>=e)
     return;

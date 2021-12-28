@@ -1,9 +1,12 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-/*Counting Sort*/
+/*Counting Sort
+An algorithm for sorting a collection of objects according to keys that are small positive integers;
+It works by counting the number of objects having distinct key values (kind of hashing). 
+*/
 void counting_sort(int arr[],int n){
-    // largest elemnt
+    // largest element
     int largest = -1;
     for (int i = 0; i < n; i++)
     {

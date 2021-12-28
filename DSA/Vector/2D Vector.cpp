@@ -4,6 +4,7 @@ using namespace std;
 /*2D Vector*/
 int main()
 {
+    // vector<vector<int>> dp(5,vector<int>(6,0)); 5 rows 6 columns all intialized to zero
     vector<vector<int>> arr = {{1,2,3}
                                 ,{4,5,6}
                                 ,{7,8,9,10}

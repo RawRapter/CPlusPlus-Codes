@@ -4,8 +4,8 @@ using namespace std;
 &Bucket = Address
 *address = bucket
 *(&x) = x
-Dereference operatoer *
-An Interesting porperty of pointer is that they can be used to access the variable they point to directly.
+Dereference operator *
+An Interesting property of pointer is that they can be used to access the variable they point to directly.
 This is done by preceding the pointer name with the dereference operator(*). The Operator can itself can
 be read as "value pointed to by"
 

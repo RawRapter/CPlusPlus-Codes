@@ -9,6 +9,7 @@ void printsubarray(int arr[],int n){
             for(int k = i ; k < j; k++){
                 cout<<arr[k]<<",";
             }
+            cout<<endl;
         }
         cout<<endl;
     }
@@ -16,7 +17,7 @@ void printsubarray(int arr[],int n){
 int main()
 {
     int arr[]={10,20,30,40,50};
-    int n = sizeof(arr)/sizeof(int);
+    int n = sizeof(arr)/sizeof(int); //getting size of array
     printsubarray(arr,n);
  return 0;
 }

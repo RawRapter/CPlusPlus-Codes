@@ -8,6 +8,7 @@ int main()
     //creating array dynamically
     int *arr = new int[n];
     
+    // Giving values in the array
     for (int i = 0; i < n; i++)
     {
         arr[i] = i;

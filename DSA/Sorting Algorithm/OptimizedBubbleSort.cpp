@@ -2,7 +2,10 @@
 using namespace std;
 
 vector<int> optimizedBubbleSort(vector<int> v){
-    // your code  goes here
+    /* Using flag here , if flag remains false when
+     inner loop is completed without going to 'if' block
+     then the array is already sorted
+     this method reduces the number of iteration */
     for (int times=0; times<v.size()-1; times++)
     {
         bool flag = false;
@@ -22,6 +25,7 @@ vector<int> optimizedBubbleSort(vector<int> v){
 int main()
 {
     vector<int> arr = {5,4,3,2,1};
+    // cout<<arr.size()<<endl;
     arr = optimizedBubbleSort(arr);
     for(auto x : arr){
         cout<<x<<", ";

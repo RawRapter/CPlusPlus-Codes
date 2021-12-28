@@ -2,9 +2,15 @@
 #include<vector>
 using namespace std;
 /*Quick Sort*/
+
+//Partition function for quick sort
 int partition(vector<int> &arr, int s, int e){
+    // Making last element pivot
     int pivot = arr[e];
+    // Intializing i to -1
     int i = s-1;
+    //Process for positioning small elements on left part and large elements on right part
+    //In comparision with the pivot element
     for(int j=s;j<=e;j++){
         if(arr[j]<pivot)
         {
@@ -12,9 +18,11 @@ int partition(vector<int> &arr, int s, int e){
             swap(arr[i],arr[j]);
         }
     }
-    swap(arr[i+1],pivot);
+    swap(arr[i+1],pivot); //Swapping the ( ith + 1 ) with the pviot element for partition
     return i+1;
 }
+
+//Main function of Quick Sort
 void Quicksort(vector<int> &arr, int s, int e){
     //Base Case
     if(s>=e)
