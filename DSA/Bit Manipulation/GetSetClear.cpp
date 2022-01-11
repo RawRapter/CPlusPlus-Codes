@@ -4,17 +4,17 @@ using namespace std;
 /*Get set clear update function on bits*/
 //Getting Ith Bit
 int getIthbit(int n, int i){
-    int mask = 1<<i;
+    int mask = 1<<i; //creating as mask to get ith bit.
     return (n&mask)>0 ? 1 : 0;
 }
 
-//setting a bit
+//setting a bit (Making the ith bit to 1)
 void SetIthBit(int &n,int i){
     int mask = (1<<i);
     n = (n|mask);
 }
 
-//clearing a bit
+//clearing a bit (making the ith bit 0)
 void ClearithBit(int n, int i){
     int mask = ~(1<<i);
     n = n & mask;

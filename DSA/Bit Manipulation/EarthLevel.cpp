@@ -12,8 +12,8 @@ long long deciml_to_binary(unsigned long long int n){
     long long binary_number = 0;
     unsigned long long int remainder,i=1;
     while(n!=0){
-        remainder = n%2;
-        n = n/2;
+        remainder = n%2; // working as getting the last bit
+        n = n/2; // working as right shift by 1
         binary_number += remainder*i;
         i *= 10;
     }

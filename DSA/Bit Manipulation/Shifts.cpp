@@ -5,8 +5,8 @@ using namespace std;
 int main()
 {
     int a =8;
-    int b = a<<2;
-    int c = a>>2;
+    int b = a<<2; // Left shift
+    int c = a>>2; // Right shift
     cout<<a<<" "<<b<<" "<<c;
  return 0;
 }

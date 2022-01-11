@@ -17,7 +17,7 @@ void Bubble_sort_rec(int arr[],int n){
                 swap(arr[j],arr[j+1]);
             }
     }
-    Bubble_sort_rec(arr,n-1);
+    Bubble_sort_rec(arr,n-1); // Outerloop has been exchanged by recursive code
 }
 
 

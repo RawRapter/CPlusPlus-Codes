@@ -1,5 +1,5 @@
 #include<iostream>
-#include<vector>
+
 using namespace std;
 /*Fast Exponentiation finding value in faster way using bits in O(logn) */
 
@@ -10,8 +10,8 @@ int fast_expo(int a, int n){
         if(last_bit){
             ans = ans * a;
         }
-        a = a*a;
-        n = n>>1;
+        a = a*a; //doubling a with each iteration
+        n = n>>1; //shifting bit to right in n
     }
     return ans;
 }

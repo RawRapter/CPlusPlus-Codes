@@ -12,6 +12,7 @@ int power(int a, int n){
     if(n==0)
     return 1;
 
+    //Recursive Case
     return a*power(a,n-1);
 }
 
@@ -21,9 +22,10 @@ int fast_power(int a, int n){
     if(n==0)
     return 1;
 
+    //Recursive Case
     int sub_problem = fast_power(a,n/2);
     int sub_problem_sq = sub_problem*sub_problem;
-    if(n&1)
+    if(n&1) //if n is odd then one more call for sub_problem_sq
     return a*sub_problem_sq;
     return sub_problem;
     

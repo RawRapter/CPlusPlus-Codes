@@ -89,6 +89,7 @@ If you have any feedback, please reach out to us at anant.arun92@gmail.com
 - Pointers & Dynamic Memory - PDM
 - Recursion - Rec
 - Sorting Algorithm - SA
+- stack - st
 - String - str
 - Vector - Vec
 - recursion - rec
