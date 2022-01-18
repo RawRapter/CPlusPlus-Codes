@@ -114,6 +114,23 @@ class List{
         return searchRecursive(head->Next,key);
     }
 
+    // Linear Search
+    //Searching in a Linked List
+	int search(int key){
+ 
+		Node * temp = head;
+		int idx = 0;
+ 
+		while(temp!=NULL){
+			if(temp->data == key){
+				return idx;
+			}
+			idx++;
+			temp = temp->Next;
+		}	
+		return -1;
+	}
+
     //finding index
     int search(int key){
         Node* temp = head;

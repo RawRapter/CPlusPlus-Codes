@@ -106,6 +106,7 @@ If you have any feedback, please reach out to us at anant.arun92@gmail.com
 #### Can I use codes?
 
 Yeah, you surely can for practice but cannot show it your own , you have to mention my name and other sites as per license.
+Also, some of my codes are not made by me I have just used them to practice. For Ex: Few of the codes are from Prateek Narang Udemy Course on DSA.
 
 #### Can I fork the repository and send pull request with updates?
 
