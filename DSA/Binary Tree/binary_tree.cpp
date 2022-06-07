@@ -208,12 +208,16 @@ int minDepth(Node *root) {
 int main()
 {
     Node * root = buildTree();
+    cout<<"PreOrder Traversal: ";
     printPreOrder(root);
     cout<<endl;
+    cout<<"InOrder Traversal: ";
     printInOrder(root);
     cout<<endl;
+    cout<<"PostOrder Traversal: ";
     printPostOrder(root);
     cout<<endl;
+    cout<<"Level Order Traversal: ";
     levelOrderTraversal(root);
 
     //building from level order
@@ -221,8 +225,10 @@ int main()
     levelOrderTraversal(root1);
     cout<<endl;
 
+    //Diameter of tree
     cout<<"Diameter: "<<diameter(root)<<endl;
 
+    //Optimised Diameter
     cout<<"Optimised Diameter: "<<optDiameter(root).diameter<<endl;
 
  return 0;

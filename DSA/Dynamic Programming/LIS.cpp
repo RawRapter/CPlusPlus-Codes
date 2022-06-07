@@ -3,7 +3,7 @@ Longest Increasing Subsequence
 Given an array, find the length of the longest subsequence of such that
 all elements of the subsequence are sorted in in increasing order
 
-Input: {50,4,10,8,3,100}
+Input: {50,4,10,8,30,100}
 Output: 4 {4,8,30,100}
 */
 
