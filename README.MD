@@ -28,7 +28,9 @@ This repository includes all the programs I wrote in C++.
     - NQueen Problem Print Single board
     - NQueen Problem count no. of ways
     - Pascal Triangle
+    - Prime Factorisation Using Sieve
     - Rotate Image
+    - Sieve of Eratosthenes
     - Spiral 2D array print
     - Stair Case Search
     - Sub Matrix Sum
