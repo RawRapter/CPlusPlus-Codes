@@ -39,6 +39,7 @@ This repository includes all the programs I wrote in C++.
 - Coding Sites Submission
     - Hacker Rank
     - Udemy
+    - YouTube
 - DSA
     - Array
     - Backtracking
@@ -101,6 +102,8 @@ If you have any feedback, please reach out to us at anant.arun92@gmail.com
 - Complete - cplt
 - Inprogress - inpr
 - Updated - updt
+- Added - add
+- YouTube - YT
 
   
 ## FAQ
