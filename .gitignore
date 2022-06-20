@@ -3,5 +3,7 @@
 DSA/*/a.exe
 Templates & STL Examples/*/a.exe
 Coding Sites Submissions/*/a.exe
+Coding Sites Submissions/*/*.exe
 Basic Patterns/*/a.exe
 Algorithms/*/a.exe
+*/.gitignore
