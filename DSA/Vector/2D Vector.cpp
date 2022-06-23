@@ -12,7 +12,7 @@ int main()
     //updating articular element
     arr[0][0]+=10;
     
-    //priting all elements
+    //printing all elements
     for (int i = 0; i < arr.size(); i++)
     {
         for(int num: arr[i]){
