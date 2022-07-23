@@ -1,7 +1,7 @@
 
 # C++ Codes
 
-This repository includes all the programs I wrote in C++.
+This repository includes all the programs I write in C++.
 
 
 ## Badges
@@ -21,6 +21,7 @@ This repository includes all the programs I wrote in C++.
 ## Index <All Folders>
 - Algorithms
     - Defense Kingdom
+    - Finding Cabs
     - GridPath
     - MakeZeroes
     - MaxSubMatrixSum
@@ -36,8 +37,30 @@ This repository includes all the programs I wrote in C++.
     - Sub Matrix Sum
     - Sudoku
 - Basic Patterns
+    - Triangle Pattern
+    - 180 Degree Half Pyramid
+    - Butterfly Triangle
+    - Diamond Star
+    - Equilateral Number Pattern
+    - Floyd Triangle
+    - Half Pyramid using numbers
+    - Hollow Rectangle
+    - Inverted Half Pyramid
+    - Inverted Pattern Number
+    - Palindrome Pattern
+    - Rectangle Print
+    - Rhombus using stars
+    - Zig Zag pattern
 - Coding Sites Submission
     - Geeks for Geeks
+        - Binary Search
+        - Kadane Algorithm
+        - Minimum number of jumps to end of array
+        - Missing Number in Array
+        - Palindrome String
+        - Peak Element in an Array
+        - Sort 0s 1s 2s
+        - Sub Array with given sum
     - Hacker Rank
     - Udemy
     - YouTube
@@ -47,6 +70,7 @@ This repository includes all the programs I wrote in C++.
     - Binary Search Tree
     - Binary tree
     - Bit Manipulation
+    - Dynamic Programming
     - Graphs
     - Hashing
     - Heap/Priority Queue
@@ -58,6 +82,7 @@ This repository includes all the programs I wrote in C++.
     - Sorting Algorithms
     - Stack
     - String
+    - Trie
     - Vector
 - Examples
 
