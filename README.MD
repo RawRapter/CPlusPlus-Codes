@@ -1,7 +1,7 @@
 
 # C++ Codes
 
-This repository includes all the programs I write in C++.
+The C++ Repository of Anant Arun
 
 
 ## Badges
@@ -73,6 +73,7 @@ This repository includes all the programs I write in C++.
     - Dynamic Programming
     - Graphs
     - Hashing
+        - Assignment 1
     - Heap/Priority Queue
     - Linked List
     - OOPs
@@ -80,6 +81,7 @@ This repository includes all the programs I write in C++.
     - Queue
     - Recursion
     - Sorting Algorithms
+        - Divide And Conquer
     - Stack
     - String
     - Trie
@@ -98,13 +100,8 @@ This repository includes all the programs I write in C++.
   
 ## Feedback
 
-If you have any feedback, please reach out to us at anant.arun92@gmail.com
+If you have any feedback, please reach out to me at anant.arun92@gmail.com
 
-  
-## Features
-
-- Highly Maintained programs
-- Optimized Versions
 
 ## Abbreviation
 - Data Structures and Algorithms - DSA
@@ -137,14 +134,17 @@ If you have any feedback, please reach out to us at anant.arun92@gmail.com
 #### Can I use codes?
 
 Yeah, you surely can for practice but cannot show it your own , you have to mention my name and other sites as per license.
-Also, some of my codes are not made by me I have just used them to practice. For Ex: Few of the codes are from Prateek Narang Udemy Course on DSA.
+
+Also, some of my codes are not made by me I have just used them to practice.
+
+For Ex: Few of the codes are from Prateek Narang Udemy Course on DSA.
 
 #### Can I fork the repository and send pull request with updates?
 
 Yes, you can.
 
 #### Is this a Project?
-No, it is not, used for learning purpose only.
+No, it is not, made for learning purpose only.
 
   
 ## 🔗 Links
